@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    width:100%;
+}
+
+a{
+    text-decoration:none;
+}
+
+/*导航栏 */
+.nav{
+    height:50px;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.nav-brand{
+    position:absolute;
+    margin-left:90px;
+    width:120px;
+    height:100%;
+}
+
+.nav-logo-a{
+    height:100%;
+    background:url(./img/logo.png) no-repeat center;
+    background-size:100%;
+}
+
+.nav-logo-b{
+    height:100%;
+    background:url(./img/choerodon_logo_fixed.svg) no-repeat center;
+    background-size:100%;
+}
+
+.nav-right{
+    float:right;
+    margin-right:90px;
+    list-style:none;
+    height:100%;
+}
+
+.nav-right li{
+    margin:0 10px;
+    float:left;
+    position:relative;
+    display:block;
+    
+}
+
+.link-a{
+    color:#fff;
+}
+
+.link-b{
+    color:#004;
+}
+
+/*导航栏*/
+
+/*Home*/
+.home{
+    height:280px;
+    width:100%;
+    padding-top:50px;
+    background:linear-gradient(0deg, #003DAC,#3371E3);
+    background:-moz-linear-gradient(0deg, #003DAC,#3371E3);
+    background:-o-linear-gradient(0deg, #003DAC,#3371E3);
+    background:-webkit-linear-gradient(0deg, #003DAC,#3371E3);
+    background:-ms-linear-gradient(0deg, #003DAC,#3371E3);
+}
+
+.home p{
+    display:block;
+    margin:30px auto;
+    text-align:center;
+    font-size: 1.5em;
+    color:#fff;
+}
+
+.home-button{
+    height:40px;
+    width:120px;
+
+    margin:0 auto 30px auto;
+    background-color:#fff;
+    border-radius:6px;
+    cursor:pointer;
+
+    text-align:center;
+    line-height:40px;
+    color:#003DAC;
+    
+}
+
+.home-button:hover{
+    opacity: 0.9;
+}
+
+/*Home*/
+
+/*content*/
+.left{
+    position:absolute;
+    width:210px;
+    margin-left:20px;
+    font-size:0.3em;
+    border-right:1px solid #C0C0C0;
+}
+
+.right{
+    margin-left:230px;
+    width:100%;
+}
+
+.left ul{
+    list-style:none;
+    
+    width:100%;
+    
+}
+
+.left ul li{
+    height:30px;
+    margin:20px 0 0 10px;
+}
+/*content*/
+
+
+.docs,.journals{
+    width:100%;
+    margin-top:50px;
+}
+
+
